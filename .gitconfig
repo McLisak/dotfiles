@@ -3,7 +3,7 @@
 	# excludesfile = /Users/maciej.lisak/.gitignore_global
 [user]
 	name = McLisak
-	email = mclisak@gmail.com
+	email = McLisak@gmail.com
 [alias]
 	nadpisz = !sh -c 'git commit --amend --no-edit --date="\"$(date -R)\""'
 	nadpiszwszystko = !sh -c 'git add . && git commit --amend --no-edit --date="\"$(date -R)\""'

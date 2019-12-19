@@ -9,10 +9,18 @@ Google it
 
 ## iTerm2
 - Download and install iTerm2 (google it)
-- In iTerm2 open preferences (cmd+,)
+- In iTerm2 - open preferences (cmd+,)
 - Navigate to General/Preferences
 - Check load preferences from a custom folder or URL
 - Point it to `path/to/dotfilesRepo/iterm2`
+- Restart iTerm2
+
+There might be a problem with default path/colors or other profile values. If that happens:
+- Navigate to Profiles
+- Click `Other Actions`
+- Select `Import JSON profiles`
+- Make it default
+- Restart iTerm2
 
 ## ZSH
 
