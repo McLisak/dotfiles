@@ -6,6 +6,8 @@
 	<true/>
 	<key>AppleAntiAliasingThreshold</key>
 	<integer>1</integer>
+	<key>ApplePressAndHoldEnabled</key>
+	<false/>
 	<key>AppleScrollAnimationEnabled</key>
 	<integer>0</integer>
 	<key>AppleSmoothFixedFontsSizeThreshold</key>
@@ -518,7 +520,7 @@
 	<key>LoadPrefsFromCustomFolder</key>
 	<true/>
 	<key>NSNavLastRootDirectory</key>
-	<string>~/Code/iterm2-preferences</string>
+	<string>~/Code/dotfiles/iterm2</string>
 	<key>NSNavLastUserSetHideExtensionButtonState</key>
 	<false/>
 	<key>NSNavPanelExpandedSizeForOpenMode</key>
@@ -570,12 +572,14 @@
 	</dict>
 	<key>NSWindow Frame ProfilesPanel</key>
 	<string>569 661 735 382 0 0 1920 1200 </string>
+	<key>NSWindow Frame SUStatusFrame</key>
+	<string>2680 1914 400 129 1920 1200 1920 1057 </string>
 	<key>NSWindow Frame SUUpdateAlert</key>
 	<string>650 606 620 392 0 0 1920 1200 </string>
 	<key>NSWindow Frame SharedPreferences</key>
 	<string>534 476 796 486 0 0 1920 1200 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 0 585 379 0 0 1920 1177 </string>
+	<string>1920 1200 585 379 1920 1200 1920 1080 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -1498,6 +1502,7 @@
 	<key>NoSyncAllAppVersions</key>
 	<array>
 		<string>3.3.6</string>
+		<string>3.3.8</string>
 		<string>3.3.1</string>
 		<string>3.3.3</string>
 		<string>3.3.5</string>
@@ -1509,20 +1514,21 @@
 	<key>NoSyncBFPRecents</key>
 	<array>
 		<string>Fira Mono for Powerline</string>
+		<string>SourceCodePro+Powerline+Awesome Regular</string>
 	</array>
 	<key>NoSyncFrame_SharedPreferences</key>
 	<dict>
 		<key>screenFrame</key>
-		<string>{{0, 0}, {1920, 1200}}</string>
+		<string>{{0, 0}, {2048, 1280}}</string>
 		<key>topLeft</key>
-		<string>{624, 797}</string>
+		<string>{784, 1131}</string>
 	</dict>
 	<key>NoSyncHaveWarnedAboutPasteConfirmationChange</key>
 	<true/>
 	<key>NoSyncInstallationId</key>
 	<string>FECC8078-9B7B-46A8-B4F5-082C67224144</string>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>18</integer>
+	<integer>21</integer>
 	<key>NoSyncNextAnnoyanceTime</key>
 	<real>587395255.09594905</real>
 	<key>NoSyncOnboardingWindowHasBeenShown</key>
@@ -2281,7 +2287,7 @@
 		</dict>
 	</dict>
 	<key>PrefsCustomFolder</key>
-	<string>/Users/maciej.lisak/Code/iterm2-preferences</string>
+	<string>/Users/maciej.lisak/Code/dotfiles/iterm2</string>
 	<key>Print In Black And White</key>
 	<true/>
 	<key>SUEnableAutomaticChecks</key>
@@ -2293,11 +2299,13 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2019-12-19T13:32:18Z</date>
+	<date>2020-02-19T08:32:28Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
+	<key>SUUpdateGroupIdentifier</key>
+	<integer>2243484719</integer>
 	<key>SUUpdateRelaunchingMarker</key>
-	<false/>
+	<true/>
 	<key>ShowBookmarkName</key>
 	<false/>
 	<key>ShowFullScreenTabBar</key>
@@ -2329,7 +2337,7 @@
 	<key>WordCharacters</key>
 	<string>/-+\~_.</string>
 	<key>iTerm Version</key>
-	<string>3.3.7</string>
+	<string>3.3.8</string>
 	<key>kCPKSelectionViewPreferredModeKey</key>
 	<integer>0</integer>
 	<key>kCPKSelectionViewShowHSBTextFieldsKey</key>
