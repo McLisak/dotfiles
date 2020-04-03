@@ -6,6 +6,8 @@
 	<true/>
 	<key>AppleAntiAliasingThreshold</key>
 	<integer>1</integer>
+	<key>ApplePressAndHoldEnabled</key>
+	<false/>
 	<key>AppleScrollAnimationEnabled</key>
 	<integer>0</integer>
 	<key>AppleSmoothFixedFontsSizeThreshold</key>
@@ -1394,7 +1396,7 @@
 			<key>Non-ASCII Ligatures</key>
 			<true/>
 			<key>Normal Font</key>
-			<string>FiraMonoForPowerline-Regular 12</string>
+			<string>MesloLGS-NF-Regular 12</string>
 			<key>Only The Default BG Color Uses Transparency</key>
 			<false/>
 			<key>Option Key Sends</key>
@@ -1503,13 +1505,14 @@
 	<array>
 		<string>3.3.2</string>
 		<string>3.2.9</string>
+		<string>3.3.9</string>
 		<string>3.3.4</string>
 		<string>3.3.7</string>
 		<string>3.3.6</string>
 	</array>
 	<key>NoSyncBFPRecents</key>
 	<array>
-		<string>Fira Mono for Powerline</string>
+		<string>MesloLGS NF</string>
 	</array>
 	<key>NoSyncFrame_SharedPreferences</key>
 	<dict>
@@ -1525,7 +1528,7 @@
 	<key>NoSyncInstallationId</key>
 	<string>CAABA6D6-C723-44CA-B3E9-27133A8E189D</string>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>26</integer>
+	<integer>42</integer>
 	<key>NoSyncNextAnnoyanceTime</key>
 	<real>589122779.15621805</real>
 	<key>NoSyncOnboardingWindowHasBeenShown</key>
@@ -2293,7 +2296,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2019-12-19T17:39:30Z</date>
+	<date>2020-04-03T20:30:45Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SUUpdateRelaunchingMarker</key>
@@ -2329,7 +2332,7 @@
 	<key>WordCharacters</key>
 	<string>/-+\~_.</string>
 	<key>iTerm Version</key>
-	<string>3.3.7</string>
+	<string>3.3.9</string>
 	<key>kCPKSelectionViewPreferredModeKey</key>
 	<integer>0</integer>
 	<key>kCPKSelectionViewShowHSBTextFieldsKey</key>
