@@ -3,6 +3,11 @@
 
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/maciej.lisak/.oh-my-zsh"
+export TIZEN_STUDIO="/Users/maciej.lisak/tizen-studio"
+export TIZEN_PROFILES_PATH="/Users/maciej.lisak/tizen-studio-data/profile/profiles.xml"
+export WEBOS_SDK_HOME="/Users/maciej.lisak/webos_sdk/webOS_TV_SDK"
+
+export PATH=$PATH:$TIZEN_STUDIO/tools:$TIZEN_STUDIO/tools/ide/bin:$WEBOS_SDK_HOME/CLI/bin
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -123,3 +128,6 @@ DEFAULT_USER="maciej.lisak"
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
