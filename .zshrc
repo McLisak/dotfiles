@@ -78,6 +78,7 @@ plugins=(
   git
   zsh-autosuggestions
   zsh-syntax-highlighting
+  zsh-better-npm-completion
 )
 
 ### Fix slowness of pastes with zsh-syntax-highlighting.zsh
