@@ -53,7 +53,7 @@ git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerl
 
 ```bash
 # clone
-git clone https://github.com/powerline/fonts.git --depth=1
+git clone https://github.com/powerline/fonts.git powerline-fonts --depth=1
 # install
 cd fonts
 ./install.sh
@@ -61,12 +61,7 @@ cd fonts
 
 
 ## zsh-syntax-highlighting
-```bash
-brew install zsh-syntax-highlighting
-```
+https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md#oh-my-zsh
 
 ## zsh-autosuggestions
-
-```bash
-brew install zsh-autosuggestions
-```
+https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#oh-my-zsh
