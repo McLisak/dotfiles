@@ -38,12 +38,13 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 
 ```bash
 # Change below path
-PATH_TO_DOTFILES = ~/Code/dotfiles
+PATH_TO_DOTFILES=~/Code/dotfiles
 ln -s $PATH_TO_DOTFILES/.zshrc ~/.zshrc
 ln -s $PATH_TO_DOTFILES/.gitconfig ~/.gitconfig
+ln -s $PATH_TO_DOTFILES/.p10k.zsh ~/.p10k.zsh
 ```
 
-## Powerlevel9k/Powerlevel10k
+## Powerlevel10k
 
 ```bash
 git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
