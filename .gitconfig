@@ -2,8 +2,8 @@
 	editor = code --wait
 	# excludesfile = /Users/maciej.lisak/.gitignore_global
 [user]
-	name = McLisak
-	email = McLisak@gmail.com
+	name = Maciej Lisak
+	email = maciej.lisak@imgarena.com
 [alias]
 	nadpisz = !sh -c 'git commit --amend --no-edit --date="\"$(date -R)\""'
 	nadpiszwszystko = !sh -c 'git add . && git commit --amend --no-edit --date="\"$(date -R)\""'
