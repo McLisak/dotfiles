@@ -77,7 +77,6 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 
 zstyle ':omz:plugins:nvm' autoload yes
 plugins=(
-  git
   nvm
   zsh-autosuggestions
   zsh-syntax-highlighting
